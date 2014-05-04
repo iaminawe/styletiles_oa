@@ -1,0 +1,73 @@
+name = Style Tiles OA Installer
+description = Installs a style tile feature on top of open atrium
+version = 7.x-0
+core = 7.x
+
+; ----------
+; Dependencies
+; ----------
+
+
+; Chaos tool suite
+dependencies[] = ctools
+
+; Core
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = options
+dependencies[] = search
+dependencies[] = taxonomy
+
+; Display Suite
+;dependencies[] = ds_extras
+;dependencies[] = ds_ui
+;dependencies[] = ds
+
+
+; Fields
+dependencies[] = entityreference
+dependencies[] = field_group
+dependencies[] = link
+
+
+
+; Other
+dependencies[] = backup_migrate
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = menu_block
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = cpn
+dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
+
+
+; User interface
+dependencies[] = jquery_update
+dependencies[] = wysiwyg
+
+; Views
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+dependencies[] = views
+
+; Features
+dependencies[] = features
+
+;custom
+;dependencies[] = st_general
+;dependencies[] = st_projects
+dependencies[] = st_tiles
+;dependencies[] = st_content
+;dependencies[] = st_welcome
+
+files[] = styletiles_oa.profile
+
