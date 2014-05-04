@@ -1,8 +1,11 @@
 api = 2
 core = 7.x
 
-projects[drupal][type] = core
-projects[drupal][version] = 7.27
+;projects[drupal][type] = core
+;projects[drupal][version] = 7.27
+
+projects[openatrium][type] = core
+projects[openatrium][version] = 2.18
 
 projects[styletiles_oa][type] = "profile"
 projects[styletiles_oa][download][type] = "git"

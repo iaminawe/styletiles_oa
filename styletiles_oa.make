@@ -1,9 +1,6 @@
 api = 2
 core = 7.x
 
-projects[openatrium][type] = "core"
-projects[openatrium][version] = "2.18"
-
 ;;;;;;;;;
 ; Custom CSS modules
 ;;;;;;;;;
