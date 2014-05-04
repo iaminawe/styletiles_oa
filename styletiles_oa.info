@@ -3,6 +3,8 @@ description = Installs a style tile feature on top of open atrium
 version = 7.x-0
 core = 7.x
 
+base = openatrium
+
 ; ----------
 ; Dependencies
 ; ----------
@@ -24,17 +26,11 @@ dependencies[] = options
 dependencies[] = search
 dependencies[] = taxonomy
 
-; Display Suite
-;dependencies[] = ds_extras
-;dependencies[] = ds_ui
-;dependencies[] = ds
-
 
 ; Fields
 dependencies[] = entityreference
 dependencies[] = field_group
 dependencies[] = link
-
 
 
 ; Other
